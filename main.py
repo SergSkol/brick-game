@@ -24,8 +24,8 @@ HEIGHT = 640
 WIDTH = 1280
 BACKGROUND_COLOR = (0, 100, 100)
 BRICK_COLOR = (255, 255, 255)
-BRICK_SIZE = 80
-FPS = 100
+BRICK_SIZE = 20
+FPS = 240
 
 main_display = pygame.display.set_mode( (WIDTH, HEIGHT) )
 main_display.fill( BACKGROUND_COLOR )
