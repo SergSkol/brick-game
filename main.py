@@ -1,4 +1,5 @@
 # Press on empty background to add new brick, press on the brick to remove
+# The objective is to remove all bricks 
 
 import pygame
 
@@ -22,7 +23,7 @@ pygame.init()
 
 HEIGHT = 640
 WIDTH = 1280
-BACKGROUND_COLOR = (0, 100, 100)
+BACKGROUND_COLOR = (0, 0, 0)
 BRICK_COLOR = (255, 255, 255)
 BRICK_SIZE = 20
 FPS = 240
