@@ -54,7 +54,8 @@ def main() :
         if index == -1: #add new
           new_brick = Brick(pos[0], pos[1])
           bricks.append(new_brick)
-          FPS -= 10
+          if FPS > 10 :
+            FPS -= 10
         else : # remove
           bricks.pop(index)
           FPS += 10
